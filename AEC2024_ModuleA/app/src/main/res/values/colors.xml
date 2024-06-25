@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="border">#c00002</color>
+    <color name="event_back">#4D000000</color>
+    <color name="icon_gray">#4DCDCDCD</color>
+    <color name="sub_text">#CDCDCD</color>
+    <color name="seat_select">#FF0000</color>
+    <color name="ticket_seat">#EF9A9A</color>
+    <color name="t1">#FB8C00</color>
+    <color name="t2">#7CB342</color>
+    <color name="t3">#00ACC1</color>
+    <color name="t4">#1E88E5</color>
+</resources>

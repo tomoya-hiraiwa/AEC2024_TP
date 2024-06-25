@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EventListFragment">
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:hint="Search all events..."
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginVertical="10dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/event_count"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+       <com.google.android.material.tabs.TabLayout
+           android:id="@+id/page_tab"
+           android:layout_weight="1"
+           android:layout_marginStart="30dp"
+            app:tabIndicator="@drawable/tab_indicatior_item"
+           app:tabIndicatorFullWidth="true"
+           app:tabIndicatorGravity="stretch"
+           android:background="@drawable/tab_back"
+           android:layout_width="210dp"
+           app:tabRippleColor="@null"
+           app:tabIconTint="@color/icon_selector"
+           android:layout_height="wrap_content">
+           <com.google.android.material.tabs.TabItem
+               android:layout_width="match_parent"
+               android:icon="@drawable/baseline_grid_view_24"
+               android:layout_height="wrap_content"/>
+           <com.google.android.material.tabs.TabItem
+               android:layout_width="match_parent"
+               android:icon="@drawable/baseline_calendar_month_24"
+               android:layout_height="wrap_content"/>
+       </com.google.android.material.tabs.TabLayout>
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/homeContainerView"
+        android:name="jp.com.aec2024_modulea.ListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
