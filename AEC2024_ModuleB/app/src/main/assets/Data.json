@@ -1,0 +1,215 @@
+{
+  "people": [
+    {
+      "name": "Alnur Rysbek",
+      "countryId": "KZ",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Asset Abdygaparov",
+      "countryId": "KZ",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    {
+      "name": "Bakhytzhan Myktybayev",
+      "countryId": "KZ",
+      "role": "Trainer",
+      "skillId": "08"
+    },
+    {
+      "name": "Baktiyar Satkulov",
+      "countryId": "KZ",
+      "role": "Expert",
+      "skillId": "08"
+    },
+    { "name": "Benjamin Frost", "countryId": "DE", "role": "Jury" },
+    {
+      "name": "Besart Memeti",
+      "countryId": "CH",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Bo Ryffel",
+      "countryId": "LI",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Csaba Szirják",
+      "countryId": "HU",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    {
+      "name": "Daniel Kalisch",
+      "countryId": "DE",
+      "role": "Competitor",
+      "skillId": "08"
+    },
+    {
+      "name": "Deng-Yang Huang",
+      "countryId": "TW",
+      "role": "Expert",
+      "skillId": "08"
+    },
+    {
+      "name": "Dr. Olaf Kappler",
+      "countryId": "DE",
+      "role": "Chief Expert",
+      "skillId": "09"
+    },
+    {
+      "name": "Edward Krogius",
+      "countryId": "FI",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    { "name": "Elisa Boose", "countryId": "DE", "role": "Jury" },
+    { "name": "Glenn Skrzypczak", "countryId": "DE", "role": "Jury" },
+    {
+      "name": "Goran Đambić",
+      "countryId": "HR",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    { "name": "Joachim Schiller", "countryId": "DE", "role": "Jury" },
+    {
+      "name": "Jonas Wanke",
+      "countryId": "DE",
+      "role": "Chief Expert",
+      "skillId": "08"
+    },
+    {
+      "name": "Jongwon Kim",
+      "countryId": "KR",
+      "role": "Competitor",
+      "skillId": "08"
+    },
+    { "name": "Justin Konratt", "countryId": "DE", "role": "Jury" },
+    { "name": "Kai Redmann", "countryId": "DE", "role": "Workshop Manager" },
+    {
+      "name": "Kenneth Eklund",
+      "countryId": "FI",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    {
+      "name": "Kornél Stefán",
+      "countryId": "HU",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    { "name": "Lukas Fischer", "countryId": "DE", "role": "Workshop Manager" },
+    {
+      "name": "Lukas Hertkorn",
+      "countryId": "DE",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    { "name": "Michael Boose", "countryId": "DE", "role": "Jury" },
+    {
+      "name": "Mikael Kolehmainen",
+      "countryId": "FI",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Nathan Colin",
+      "countryId": "FR",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    {
+      "name": "Nils Jakubzick",
+      "countryId": "DE",
+      "role": "Competitor",
+      "skillId": "08"
+    },
+    {
+      "name": "Olzhas Toktassyn",
+      "countryId": "KZ",
+      "role": "Trainer",
+      "skillId": "09"
+    },
+    {
+      "name": "Olzhas Tynyshtyk",
+      "countryId": "KZ",
+      "role": "Competitor",
+      "skillId": "08"
+    },
+    {
+      "name": "Patrik Perčinić",
+      "countryId": "HR",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Riccardo Somma",
+      "countryId": "LI",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    {
+      "name": "Simon Brebeck",
+      "countryId": "DE",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Sungmin Lee",
+      "countryId": "KR",
+      "role": "Expert",
+      "skillId": "08"
+    },
+    {
+      "name": "Thomas Guilbert",
+      "countryId": "FR",
+      "role": "Competitor",
+      "skillId": "09"
+    },
+    {
+      "name": "Thomas Kehl",
+      "countryId": "CH",
+      "role": "Expert",
+      "skillId": "09"
+    },
+    { "name": "Thomas Steinfeld", "countryId": "DE", "role": "Jury" },
+    {
+      "name": "Wei-Hung Lai",
+      "countryId": "TW",
+      "role": "Competitor",
+      "skillId": "08"
+    },
+    {
+      "name": "Yi-Chi Yao",
+      "countryId": "TW",
+      "role": "Interpreter",
+      "skillId": "08"
+    },
+    {
+      "name": "Yonghoon Kim",
+      "countryId": "KR",
+      "role": "Trainer",
+      "skillId": "08"
+    }
+  ],
+  "skills": {
+    "08": "Mobile Applications Development",
+    "09": "IT Software Solutions for Business"
+  },
+  "countries": {
+    "CH": "Switzerland",
+    "DE": "Germany",
+    "FI": "Finland",
+    "FR": "France",
+    "HR": "Croatia",
+    "HU": "Hungary",
+    "KR": "Korea",
+    "KZ": "Kazakhstan",
+    "LI": "Liechtenstein",
+    "TW": "Chinese Taipei"
+  }
+}

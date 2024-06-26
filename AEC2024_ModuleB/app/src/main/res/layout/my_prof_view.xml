@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#66000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/orange"
+            app:cardCornerRadius="100dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/detail_user_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="100dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/me" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|bottom"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/de" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <TextView
+    android:id="@+id/nam_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="John Doe"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/detail_frame"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Competitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:text="Skill08: Mobile Applications Development"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/edit_button"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/outline_edit_24"
+            android:text="Tap to edit"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            <FrameLayout
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:drawableLeft="@drawable/baseline_language_24"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/web_text"
+                    android:text="http:aaa..aaa.aaaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:minWidth="300dp"
+                    android:textColor="@color/white"
+                    android:visibility="invisible"
+                    android:drawableLeft="@drawable/baseline_language_24"
+                    android:id="@+id/web_edit"
+                    android:backgroundTint="@color/white"
+                    android:textFontWeight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </FrameLayout>
+        <FrameLayout
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawableLeft="@drawable/baseline_mail_outline_24"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:id="@+id/mail_text"
+                android:text="http:aaa..aaa.aaaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:textColor="@color/white"
+                android:minWidth="300dp"
+                android:visibility="invisible"
+                android:drawableLeft="@drawable/baseline_mail_outline_24"
+                android:id="@+id/mail_edit"
+                android:backgroundTint="@color/white"
+                android:textFontWeight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/qr_button"
+            android:id="@+id/qr_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/qr_frame"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/qr_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
